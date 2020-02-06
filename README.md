@@ -1,6 +1,6 @@
 # Future Astronauts
 
-Collection of handcrafted [CUE sheets][cue] for [Future Astronauts Episodes][fa].
+A collection of handcrafted [CUE sheets][cue] for the [Future Astronauts Episodes][fa].
 
 [cue]: https://en.wikipedia.org/wiki/Cue_sheet_(computing)
 [fa]: https://futureastronauts.net
@@ -10,6 +10,7 @@ Collection of handcrafted [CUE sheets][cue] for [Future Astronauts Episodes][fa]
 * [#139](https://git.io/JvqMb)
 * [#144](https://git.io/JvqMF)
 * [#145](https://git.io/JvqMd)
+* [#146](https://git.io/JvsYn)
 
 ## Horizons (100 day delay)
 
@@ -21,3 +22,4 @@ Collection of handcrafted [CUE sheets][cue] for [Future Astronauts Episodes][fa]
 
 * #001
 * #002
+* [#003](https://www.patreon.com/posts/future-003-33614453) (comment on the Patreon page)
