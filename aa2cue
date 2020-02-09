@@ -13,6 +13,30 @@ parser.add_argument('--genre')
 parser.add_argument('--encoding', default='utf-8-sig')
 args = parser.parse_args()
 
+MINS_IN_HOUR = 60
+TIME_SEPARATOR = ':'
+
+def pad_zero(number):
+    return f'{number:02}'
+
+def parse_name(name):
+    parts = name.split(' - ')
+
+    assert len(parts) == 2
+
+    return parts
+
+def parse_start(start):
+    parts = start.split(TIME_SEPARATOR)
+
+    assert len(parts) == 4
+
+    (hours, minutes, second, frames) = map(int, parts)
+
+    parts_wo_hours = (minutes + hours * MINS_IN_HOUR, second, frames)
+
+    return TIME_SEPARATOR.join(map(pad_zero, parts_wo_hours))
+
 with open(args.csv, encoding=args.encoding) as f:
     reader = csv.DictReader(f, delimiter='\t')
 
@@ -27,11 +51,11 @@ with open(args.csv, encoding=args.encoding) as f:
     print(f'FILE "{args.mp3}" MP3')
 
     for idx, row in enumerate(reader):
-        performer, title = row['Name'].split(' - ')
-        start = row['Start']
         track_no = idx + 1
+        performer, title = parse_name(row['Name'])
+        start = parse_start(row['Start'])
 
-        print(f'  TRACK {track_no:02} AUDIO')
+        print(f'  TRACK {pad_zero(track_no)} AUDIO')
         print(f'    PERFORMER "{performer}"')
         print(f'    TITLE "{title}"')
         print(f'    INDEX 01 {start}')
