@@ -11,6 +11,7 @@ A collection of handcrafted [CUE sheets][cue] for the [Future Astronauts Episode
 * [#144](https://git.io/JvqMF)
 * [#145](https://git.io/JvqMd)
 * [#146](https://git.io/JvsYn)
+* [#147](https://git.io/Jv8vF)
 
 ## Horizons (100 day delay)
 
