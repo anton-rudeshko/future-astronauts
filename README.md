@@ -23,6 +23,7 @@ A collection of handcrafted [CUE sheets][cue] for the [Future Astronauts Episode
 * [#055](https://git.io/JvqMi)
 * [#056](https://git.io/JvqMo)
 * [#057](https://git.io/Jvckl)
+* [#058](https://git.io/JvEtZ)
 
 ## Transmissions (Orloe)
 
