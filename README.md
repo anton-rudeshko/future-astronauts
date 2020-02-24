@@ -7,7 +7,9 @@ A collection of handcrafted [CUE sheets][cue] for the [Future Astronauts Episode
 
 ## Podcast (Soular Order)
 
-![Future Astronauts Podcast Banner](./cuenation-banners/Future-Astronauts-Podcast.jpg)
+[![Future Astronauts Podcast Banner]][cn-podcast]
+
+[On CueNation][cn-podcast].
 
 * [#139](https://git.io/JvqMb)
 * [#144](https://git.io/JvqMF)
@@ -15,9 +17,17 @@ A collection of handcrafted [CUE sheets][cue] for the [Future Astronauts Episode
 * [#146](https://git.io/JvsYn)
 * [#147](https://git.io/Jv8vF)
 
+[Future Astronauts Podcast Banner]: ./cuenation-banners/Future-Astronauts-Podcast.jpg
+[cn-podcast]: http://cuenation.com/?page=cues&folder=futureastronautspodcast
+
 ## Horizons (100 day delay)
 
-![Future Astronauts Horizons Banner](./cuenation-banners/Future-Astronauts-Horizons.jpg)
+[![Future Astronauts Horizons Banner]][cn-horizons]
+
+[On CueNation][cn-horizons].
+
+[Future Astronauts Horizons Banner]: ./cuenation-banners/Future-Astronauts-Horizons.jpg
+[cn-horizons]: http://cuenation.com/?page=cues&folder=futureastronautshorizons
 
 * [#054](https://git.io/JvqM5)
 * [#055](https://git.io/JvqMi)
@@ -27,11 +37,16 @@ A collection of handcrafted [CUE sheets][cue] for the [Future Astronauts Episode
 
 ## Transmissions (Orloe)
 
-![Future Astronauts Transmissions Banner](./cuenation-banners/Future-Astronauts-Transmissions.jpg)
+[![Future Astronauts Transmissions Banner]][cn-transmissions]
+
+[On CueNation][cn-transmissions].
 
 * #001
 * #002
 * [#003](https://www.patreon.com/posts/future-003-33614453) (comment on the Patreon page)
+
+[Future Astronauts Transmissions Banner]: ./cuenation-banners/Future-Astronauts-Transmissions.jpg
+[cn-transmissions]: http://cuenation.com/?page=cues&folder=futureastronautstransmissions
 
 ---
 
